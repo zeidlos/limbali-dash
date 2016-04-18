@@ -32,7 +32,7 @@ gulp.task('server', function () {
 
 gulp.task('prod-server', function () {
     connect.server({
-        port: 8080,
+        port:1337,
         root: './',
         livereload: false
     });
